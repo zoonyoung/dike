@@ -16,7 +16,8 @@ const SigninPage = () => {
         <form onSubmit={methods.handleSubmit(onSubmit)}></form>
       </FormProvider>
       <h2>간편 로그인</h2>
-      <button onClick={() => signIn("naver")}>naver,google,kakao</button>
+      <button onClick={() => signIn("naver")}>Naver</button>
+      <button onClick={() => signIn("google")}>Google</button>
       <div></div>
       <Link href="/signup">회원 가입 하러가기</Link>
     </div>
